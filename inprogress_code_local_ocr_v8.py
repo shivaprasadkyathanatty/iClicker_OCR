@@ -40,11 +40,12 @@ def mysql_be_con():
 # mysql configurations
 config = {
   'user': 'root',
-  'password': 'password',
+  'password': '123',
   'host': '127.0.0.1',
-  'database': 'sample',
+  'database': 'iclicker_ocr',
   'raise_on_warnings': True,
-  'autocommit':True
+  'autocommit':True,
+  'auth_plugin':'mysql_native_password'
 }
 
 # setup mysql connection
