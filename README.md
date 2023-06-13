@@ -1,4 +1,4 @@
-Instructions to run the code:
+**Instructions to run the code**:
 1.Create folder "raw_images" in your local and Download raw ocr image files to the folder from "https://s3.console.aws.amazon.com/s3/buckets/ocr-raw-images?region=us-east-1&tab=objects"
 2.Assign "raw_images" folder path to the variable "raw_image_path_folder"
 3.Create folder "formatted_images" in your local and assign the folder path to the variable "formatted_image_path_folder"
